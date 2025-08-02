@@ -15,73 +15,87 @@ const portfolioData: PortfolioItem[] = [
     title: "Raymond Weil Flyback",
     category: "BRAND CONTENT",
     description: "The renowned Swiss watchmaking house Raymond Weil presents its new Flyback watch, a tribute to the brand's founder and his passion for aviation. An original format that led to a shoot resembling a journey through time among vintage aircraft.",
-    image: "/images/raymond-weil-1.png"
+    image: "/images/raymond-weil-flyback.png"
   },
   {
     id: 2,
     title: "Freelancer Ladies Collection",
     category: "BRAND CONTENT",
     description: "Swiss watchmaker Raymond Weil unveils the Freelancer Ladies collection — six luxury timepieces for a refined female audience. With refined direction and a play of light, the watch is subtly revealed through lifestyle shots only.",
-    image: "/images/raymond-weil-2.png"
+    image: "/images/raymond-weil-freelancer.png"
   },
   {
     id: 3,
     title: "Raymond Weil X BASQUIAT",
     category: "BRAND CONTENT",
     description: "Watchmaker Raymond Weil wanted to make a statement for the launch of its new timepiece inspired by the world of Jean-Michel Basquiat, through a visually bold campaign. The campaign was adapted into various formats for social media and dynamic displays worldwide.",
-    image: "/images/raymond-weil-3.png"
+    image: "/images/raymond-weil-basquiat.png"
   },
   {
     id: 4,
-    title: "Sci-Fi Animation Project",
-    category: "FICTION",
-    description: "Cinematic animation project featuring futuristic elements and storytelling with high-quality visual effects and narrative depth.",
-    image: "/images/fiction-1.avif"
+    title: "PORTRAITS 5 VIES",
+    category: "BRAND CONTENT",
+    description: "To accompany its new identity based on the slogan 'Act Here, Change Tomorrow', Lyon's regional marketing campaign relies on ambassadors with inspiring backgrounds. Their names are Tony, Diane, Lisa, Ruba & Mhiar and Ambre. Their encounter with the city changed their lives, and today their journeys inspire people beyond borders.",
+    image: "/images/portraits-5-vies-1.png"
   },
   {
     id: 5,
-    title: "Origen Ballet Flamenco",
-    category: "MUSICS",
-    description: "Ballet Flamenco de Andalucía performance production and management, coordinating artistic direction and technical execution.",
-    image: "/images/opera-1.png"
+    title: "WARNING",
+    category: "FICTION",
+    description: "A gripping fictional narrative that explores contemporary themes through compelling cinematography and atmospheric storytelling.",
+    image: "/images/warning-1.png"
   },
   {
     id: 6,
-    title: "Opéra Live 2025 - Faust",
-    category: "MUSICS",
-    description: "Faust opera performance live streaming production, managing technical coordination and broadcast logistics for this prestigious event.",
-    image: "/images/opera-live-2025.png"
+    title: "LA COULEUR DU CIEL",
+    category: "FICTION",
+    description: "An evocative fictional piece that captures the essence of human emotions through visual poetry and nuanced performances.",
+    image: "/images/la-couleur-du-ciel-1.png"
   },
   {
     id: 7,
-    title: "Platée - Jean-Philippe Rameau",
+    title: "Origen Ballet Flamenco",
     category: "MUSICS",
-    description: "Production management for this classical opera performance, ensuring seamless coordination between artistic and technical teams.",
-    image: "/images/platee-opera.png"
+    description: "Ballet Flamenco de Andalucía performance production and management, coordinating artistic direction and technical execution.",
+    image: "/images/origen-ballet-flamenco.png"
   },
   {
     id: 8,
+    title: "Opéra Live 2025 - Faust",
+    category: "MUSICS",
+    description: "Faust opera performance live streaming production, managing technical coordination and broadcast logistics for this prestigious event.",
+    image: "/images/opera-live-2025-faust.png"
+  },
+  {
+    id: 9,
+    title: "Platée - Jean-Philippe Rameau",
+    category: "MUSICS",
+    description: "Production management for this classical opera performance, ensuring seamless coordination between artistic and technical teams.",
+    image: "/images/platee.png"
+  },
+  {
+    id: 10,
     title: "Koh-Lanta La Légende",
     category: "TV SHOWS",
     description: "French reality TV show production management, coordinating logistics and team management for this popular adventure series.",
     image: "/images/koh-lanta-legende.png"
   },
   {
-    id: 9,
+    id: 11,
     title: "L'Île de la Tentation",
     category: "TV SHOWS",
     description: "Reality TV show production coordination, managing day-to-day operations and team logistics for this relationship-based reality series.",
-    image: "/images/tv-show-1.png"
+    image: "/images/ile-de-la-tentation.avif"
   },
   {
-    id: 10,
+    id: 12,
     title: "Les Marseillais Asian Tour",
     category: "TV SHOWS",
     description: "Travel reality show production management, coordinating international filming logistics and crew management.",
-    image: "/images/tv-show-2.png"
+    image: "/images/les-marseillais-asian-tour.avif"
   },
   {
-    id: 11,
+    id: 13,
     title: "Moundir & Les Apprentis Aventuriers",
     category: "TV SHOWS",
     description: "Adventure reality show production, managing competitive challenges and participant coordination for this action-packed series.",
