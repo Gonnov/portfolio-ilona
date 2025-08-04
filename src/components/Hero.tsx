@@ -42,14 +42,27 @@ const Hero: React.FC = () => {
             ILONA SAUVAT
           </motion.h1>
           
-          <motion.p
-            className="text-lg font-medium text-text-dark tracking-wide max-w-2xl leading-relaxed"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+          <motion.div
+            className="flex flex-col sm:flex-row gap-8 justify-center items-center"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
           >
-            PRODUCTION MANAGER // EVENT PROJECT MANAGER // COMMUNICATION STRATEGY
-          </motion.p>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-primary-gold mb-2">7+</div>
+              <div className="text-sm text-text-light uppercase tracking-wider">Years Experience</div>
+            </div>
+            <div className="hidden sm:block w-px h-16 bg-gray-300"></div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-primary-gold mb-2">Master's</div>
+              <div className="text-sm text-text-light uppercase tracking-wider">EFAP Lyon</div>
+            </div>
+            <div className="hidden sm:block w-px h-16 bg-gray-300"></div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-primary-gold mb-2">50+</div>
+              <div className="text-sm text-text-light uppercase tracking-wider">Projects Delivered</div>
+            </div>
+          </motion.div>
         </motion.div>
       </div>
     </section>
